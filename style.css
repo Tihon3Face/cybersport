@@ -1,0 +1,211 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+/* Навигация */
+.navigation{
+    position:fixed;
+    display:flex;
+    align-items: center;
+    height:100px;
+    width: 100vw;
+    background-color: #222222;
+    box-shadow: 0px 3.5px 10px black;
+}
+.navigation__box{
+    display:flex;
+    width:80%;
+    justify-content: center;
+    margin:auto;
+    align-items: center;
+}
+.navigation__box__logo{
+    font-size:30px;
+    color:white;
+    width:167px;
+    display:flex;
+    align-items: center;
+
+}
+.navigation__box__logo__img{
+    padding:10px;
+}
+.navigation__box__items{
+    margin: 0px 0px 0px 600px;
+    width:fit-content;
+}
+.navigation__box__items__a{
+    margin: 0px 10px;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+
+
+/* Киберспортивный клан RobotBot */
+.cybersport{
+    padding:100px 0px 70px 0px;
+    background: url("./img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover;
+}
+.cybersport__sign{
+    width:1000px;
+    padding: 0px 40px;
+}
+.cybersport__sign__caption{
+    width:fit-content;
+    font-size: 100px;
+    color:#222222d7;
+    margin:70px 0px;
+}
+.cybersport__sign__p{
+    width:fit-content;
+    margin:70px 0px;
+    font-size: 50px;
+    color:#222222d7;
+}
+.cybersport__sign>a{
+    text-decoration: none;
+    color:white;
+}
+.cybersport__sign__a{
+    width:fit-content;
+    margin:70px 0px;
+    padding:20px 50px;
+    background: linear-gradient(15deg,#60dafe 20%, #70ffcc 70%)
+}
+
+
+/*  Во что мы играем  */
+.container{
+    background-color: #222222;
+}
+.container__main{
+    padding:50px 0px;
+    width:1000px;
+    margin:auto;
+}
+
+
+/* Иконки */
+.container__main__abilities{
+    display:flex;
+    vertical-align: top;
+}
+.container__main__abilities__card{
+    width: 190px;
+    margin: 0px 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+}
+.container__main__abilities__card>img{
+    width: 150px;
+    height:150px;
+    padding:20px;
+    
+}
+.container__main__abilities__card>p{
+    text-align: center;
+    font-size:23px;
+    color:#60dafe;
+}
+
+
+/* Игры */
+.container__main__games{
+    box-shadow: 0px 3.5px 20px black;
+    border-radius:2px;
+    margin:50px 0px;
+    padding:30px 0px;
+}
+.container__main__games>h2{
+    color:#60dafe;
+    text-align: center;
+    padding:0px 30px 30px 30px;
+}
+.container__main__games__item{
+    display:flex;
+    justify-content: center;
+}
+.container__main__games__item>img{
+    width:490px;
+}
+.container__main__games__item__text{
+    width:490px;
+    padding:15px;
+}
+.container__main__games__item__text>h2{
+    color:#70ffcc;
+}
+.container__main__games__item__text>hr{
+    margin:23px 0px;
+    width:130px;
+    height:2px;
+    border: none;
+    background:#70ffcc;
+}
+.container__main__games__item__text>p{
+    font-size: 20px;
+    line-height: 35px;
+    color:white;
+}
+
+
+/* Дискорд сервер */
+.container__main__description>h2{
+    color:#60dafe;
+    text-align: center;
+    margin:50px 0px 30px 0px;
+}
+.container__main__description>p{
+    width:900px;
+    color:white;
+    text-align: center;
+    margin:auto;
+    line-height: 30px;
+}
+
+
+
+
+/* Кликай тут */
+.container__main__reception{
+    box-shadow: 0px 3.5px 20px black;
+    padding:30px 0px;
+}
+.container__main__reception>h2{
+    margin:auto auto 20px auto;
+    width:fit-content;
+    color:#60dafe;
+    padding:0px 70px 30px 70px;
+    border-bottom: 2px solid white; 
+}
+.container__main__reception__click{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#60dafe;
+    margin:auto;
+    width:900px;
+    height:125px;
+}
+.container__main__reception__click>h2{
+    color:white;
+    font-size:35px;
+}
+.container__main__reception__click>a{
+    margin:0px 0px 0px 400px;
+    width:fit-content;
+    text-decoration: none;
+    color:white;
+}
+.container__main__reception__click>a>p{
+    width:fit-content;
+    padding:12.5px 50px;
+    background-color:black;
+}
